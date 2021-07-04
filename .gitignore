@@ -1,0 +1,47 @@
+# Consulte http://help.github.com/ignore-files/ para obtener más información sobre cómo ignorar archivos.
+
+# salida compilada
+/ dist
+/ tmp
+/ out-tsc
+# Solo existe si se ejecutó Bazel
+/ bazel-out
+.env
+# dependencias
+/ node_modules
+
+# archivos de creación de perfiles
+Eventos de perfil de Chrome * .json
+complemento de medición de velocidad * .json
+
+# IDE y editores
+/ .idea
+.proyecto
+.classpath
+.c9 /
+* .launch
+.settings /
+* .sublime-workspace
+
+# IDE - VSCode
+.vscode
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+.historia / *
+
+# misceláneo
+/ .sass-cache
+/ connect.lock
+/ cobertura
+/ libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/ tipificaciones
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
